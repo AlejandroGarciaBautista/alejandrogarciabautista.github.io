@@ -2,16 +2,62 @@
   z-index: 1000;
 }
 
+.zona {
+  margin-right: 5px;
+}
+
+.boton-envio {
+  background-color: #36CAF0;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
+
+.img-carrito  {
+  width: 100px;
+  height: 100px;
+}
+
 .btn-primary{
   background-color: #fff!important;
   border: none; 
 }
 
 .btn-primary:hover{
-  background-color: #f7941d!important;
+  background-color: #07779C!important;
   color: #fff!important;
+}
+
+.botonpers {
+  border-radius: 10px;
+  background-color: #ffffff!important;
 }
 
 .card {
   margin-right: 5px;
+}
+
+.contenido-productos {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.pantalon-mujer {
+  height: 50%;
+  width: 50%;
+}
+
+.mujer {
+  width: 288px;
+  height: 595.36px;
+}
+
+.hombre {
+  width: 288px;
+  height: 595.36px;
+}
+
+.precios {
+  text-align: center;
 }
