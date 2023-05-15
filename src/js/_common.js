@@ -11,9 +11,4 @@ document.getElementById("saltar-contenido").addEventListener("click", () => {
   contenidoPrincipal.focus();
 })
 
-
-
-
-
-
 {/* <button id="volver-arriba" onclick="volverArriba()">Volver arriba</button> */}

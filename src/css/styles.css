@@ -94,3 +94,18 @@
 #pagar {
   font-size: 30px;
 }
+
+.logo {
+  width: 50%; 
+  height: 50%; 
+  border-radius: 20px;
+}
+
+#accordionFlushExample {
+  width: 100%;
+}
+
+.texto-filtro {
+  padding-top: 15px;
+  font-size: 20px;
+}
