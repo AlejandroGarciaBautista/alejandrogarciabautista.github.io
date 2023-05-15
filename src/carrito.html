@@ -5,11 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link href="./styles.css" type="text/css" rel="stylesheet">
-  <title> CanaryClothes Login </title>
+  <link href="./css/styles.css" type="text/css" rel="stylesheet">
+  <title> CanaryClothes Carrito </title>
   <link rel="icon" type="image/x-icon" href="../img/Logo.png">
 </head>
 <body>
+  
   <!-- Barra de Navegación -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 fixed-top">
     <div class="container">
@@ -55,17 +56,28 @@
       </div>
     
       <div id="total" class="col-sm-8 row" style="align-items: center;">
-        <h3 class="fw-bold text-black" id="pagar">Total: </h3>
+        <p class="fw-bold text-black" id="pagar">Total a pagar: </p>
       </div>
 
-      <button type="submit" class="mt-4 text-black fw-semibold shadow-sm boton-envio" tabindex="0">Pagar</button>
+      <div id="confirm-pago">
+        <h2 class="text-black">Confirmar pago</h2>
+        <p class="text-black">¿Está seguro que desea realizar el pago?</p>
+        <form>
+          <button type="button" class="mt-4 text-black fw-semibold shadow-sm boton-envio" id="confirmar" tabindex="0">Confirmar</button>
+          <button type="button" class="mt-4 text-black fw-semibold shadow-sm boton-envio" id="cancelar" tabindex="0">Cancelar</button>
+        </form>
+      </div>
+
+      <div class="d-flex gap-1 justify-content-center mt-1" id="confirmacion" role="alert" aria-live="polite" style="font-size: 25px;">
+        
+      </div>
 
     </div>
   </main>
 
   <!--Footer-->
   <footer class="py-5 bg-dark">
-    <div class="container"><p class="m-0 text-center text-white">Autores: Lucas Perez Rosario y Alejandro García Bautista (G14)</p></div>
+    <div class="container"><p class="m-0 text-center text-white">Autores: Lucas Pérez Rosario y Alejandro García Bautista (G14)</p></div>
     <div class="container"><p class="m-0 text-center text-white">Copyright &copy; CanaryClothes 2023</p></div>
   </footer>
   <!-- Final del Footer -->
@@ -78,7 +90,8 @@
   <!-- Pluggin Isotope JS -->
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
   <!-- Js -->
-  <script src="./main.js"></script>
+  <script src="./js/cesta.js"></script>
+  <script src="./js/_common.js"></script>
   <!-- Final de los scripts necesarios -->
 </body>
 </html>

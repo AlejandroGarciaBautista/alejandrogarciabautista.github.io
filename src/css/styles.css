@@ -61,3 +61,36 @@
 .precios {
   text-align: center;
 }
+
+#items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+
+#todos-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#articulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.mensaje-error {
+  color: #B40808;
+}
+
+.mensaje-exito {
+  color: #317D07;
+}
+
+#pagar {
+  font-size: 30px;
+}
